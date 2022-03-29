@@ -1,0 +1,1 @@
+#Uma equação de 2°g
