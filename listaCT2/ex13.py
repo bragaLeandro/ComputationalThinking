@@ -20,6 +20,5 @@ elif mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or me
 elif mes == 4 or mes == 6 or mes == 9 or mes == 1 and dia <=30 and dia >=1:
     print("Data válida")
 
-
 else:
     print("Data inválida")
