@@ -1,9 +1,9 @@
 consumo_mensal = int(input("Informe a quantidade de kWh consumida no mês: "))
 
-if consumo_mensal < 0:
+while consumo_mensal < 0:
     print("Resposta inválida, consumo menor que 0")
     consumo_mensal = int(input("Informe a quantidade de kWh consumida no mês: "))
-elif consumo_mensal <= 50:
+if consumo_mensal <= 50:
     valor_kwh = 14
 elif consumo_mensal >=51:
     valor_kwh =  14 + (consumo_mensal*0.25)
