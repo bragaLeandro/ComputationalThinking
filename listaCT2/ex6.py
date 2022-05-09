@@ -5,4 +5,5 @@ import math
 num = float(input("Informe um número qualquer: "))
 
 raiz_quadrada = math.sqrt(num)
+
 print("a raiz quadrada de", num, "é:", raiz_quadrada)
