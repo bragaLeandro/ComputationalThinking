@@ -28,12 +28,13 @@ while errors < 6 and "_" in secret:
     print("Errors: {}".format(errors))
     guess = input("Letter: ").upper()
     secret2 = verify_guess(word, secret, guess)
+
     if secret == secret2:
         errors = errors + 1
     else:
         secret = secret2
 
 if errors >= 6:
-    print("YOU LOSE!! THE WORD WAS {}".format(word))
+    print("YOU LOSE!! THE WORD WAS: {}".format(word))
 else:
-    print("YOU WIN!! THE WORD WAS {}".format(word))
+    print("YOU WIN!! THE WORD WAS: {}".format(word))
