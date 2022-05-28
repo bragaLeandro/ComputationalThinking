@@ -1,6 +1,6 @@
 def put_underline(word):
     aux = ""
-    for c in word:
+    for x in word:
         aux = aux + "_ "
     return aux
 
