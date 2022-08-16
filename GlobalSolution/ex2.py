@@ -12,6 +12,7 @@ while avaliacao > 0:
     elif avaliacao == maior_avaliacao:
         maior_avaliacao = avaliacao
         maior_produto = produto + ", " + maior_produto
+    print(maior_produto)
     
     produto = input("Informe o nome do produto: ")
     avaliacao = float(input("Informe a avaliação do produto: "))
