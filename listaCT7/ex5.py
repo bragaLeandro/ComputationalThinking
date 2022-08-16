@@ -10,5 +10,5 @@ def verifyOrdered(list):
 
 isOrdered = verifyOrdered(myOrderedList)
 isOrdered1 = verifyOrdered(myUnorderedList)
-
+        
 print(isOrdered, isOrdered1)
